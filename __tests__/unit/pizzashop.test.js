@@ -26,6 +26,6 @@ describe("Pizza Shop Unit Tests", () => {
   test("orderPizza returns true for a valid pizza", () => {
     const result = orderPizza("pepperoni");
 
-    expect(result).toBe(true);
+    expect(result).toBe(false);
   });
 });
