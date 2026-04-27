@@ -1,4 +1,4 @@
-import { orderPizza } from "./pizzashop";
+import { orderPizza } from "../../src/pizzashop.js";
 import { describe, test, expect } from "vitest";
 
 describe("Pizza Shop Integration Test", () => {
